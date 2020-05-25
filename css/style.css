@@ -1,0 +1,68 @@
+/*
+   sport-betting
+
+   1. header
+   2.
+   3
+   4
+   5. footer
+
+
+ */
+
+:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0;
+}
+p,a,span,label,input{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    color: #fff;
+}
+.btn-yellow {
+    background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Noto Sans Arabic;
+    padding: 10px 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+}
+.form-check input[type="checkbox"] {
+   border: 1px solid #ccc;
+}
+
+
+header{
+    padding: 65px 0 80px;
+}
+.header-wrap{
+    max-width: 382px;
+    display: block;
+    margin: 0 auto;
+}
+.bg-header{
+    position: relative;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.bg-header:before{
+
+    background-image: url("../img/bg-header-dop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.header-logo{
+    text-align: center;
+}
+
